@@ -1,0 +1,95 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border: 5px solid red;
+  color: red;
+}
+.container {
+  /* display: flex; */
+  /* მიმართულების შეცვლა */
+  /* flex-direction: column; */
+  /* flex-direction: row; */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column-reverse;
+  height: 100vh; */
+
+  /* justify-content ამოძრავებს x ღერძზე */
+  /* justify-content: center;
+  justify-content: start;
+  justify-content: end; */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
+
+  /* aligh content  */
+  /* height: 100vh;
+  align-content: space-between;
+  align-content: space-evenly;
+  align-content: space-around;
+  align-content: start;
+  align-content: end;
+  align-content: center; */
+
+  /* ელემენტებს როდესაც ადგილი არ ჰყოფნით, დაბლა აგდებს */
+  /* flex-wrap: wrap; */
+
+  /* align items ამოძრავებს y ღერძე */
+  /* align-items: center;
+  align-items: start;
+  align-items: end;
+  height: 100vh; */
+  /* height: 100vh;
+  align-items: center;
+  justify-content: center; */
+
+  /* gap დაშორება */
+  /* gap: 10px; */
+  /* column-gap:30px;
+  row-gap: 50px; */
+
+  /* flex-wrap: wrap; */
+
+  
+}
+/* order-გადანომრვა */
+/* 
+.box3{
+    order: 1;
+}
+.box1{
+    order: 2;
+}
+.box2{
+    order: 3;
+} */
+
+/* align-self საკუთარი თავის გადაადგილება-center, start, end, strach */
+
+
+
+header{
+    background-color: orange;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+div{
+    background-image: url(./);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+}
